@@ -180,7 +180,7 @@ body.nav-active { overflow: hidden; }
 .h4 { font-weight: var(--fw-700); }
 
 .w-100 { width: 100%; }
-.w-50 { width: 50%; }
+.w-50 { width: 50%; height: 50%; }
 
 .has-before {
   position: relative;
