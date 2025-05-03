@@ -180,7 +180,7 @@ body.nav-active { overflow: hidden; }
 .h4 { font-weight: var(--fw-700); }
 
 .w-100 { width: 100%; }
-.w-50 { width: 50%; height: 50%; }
+.w-50 {  height: 50%; }
 
 .has-before {
   position: relative;
@@ -786,6 +786,7 @@ body.nav-active { overflow: hidden; }
    */
 
   .container { max-width: 720px; }
+  .container-small { max-width: 500px; }
 
   .title-wrapper {
     display: flex;
@@ -806,10 +807,10 @@ body.nav-active { overflow: hidden; }
 
   .hero-banner {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 0;
-    transform: translateY(-50%);
-    width: 55%;
+    transform: translateY(-40%);
+    width: 45%;
     z-index: -1;
   }
 
